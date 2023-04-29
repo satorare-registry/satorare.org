@@ -493,7 +493,7 @@
 					$body.classList.remove('is-playing');
 					$body.classList.add('is-ready');
 		
-				}, 1000);
+				}, 750);
 			}, 100);
 		});
 	
@@ -1361,8 +1361,8 @@
 		};
 	
 	// Initialize "On Visible" animations.
-		onvisible.add('h1.style1, h2.style1, h3.style1, p.style1', { style: 'fade-up', speed: 1000, intensity: 0, delay: 125, staggerOrder: '', replay: false });
 		onvisible.add('h1.style3, h2.style3, h3.style3, p.style3', { style: 'fade-right', speed: 1125, intensity: 3, delay: 0, staggerOrder: '', replay: false });
+		onvisible.add('h1.style1, h2.style1, h3.style1, p.style1', { style: 'fade-up', speed: 1000, intensity: 0, delay: 125, staggerOrder: '', replay: false });
 		onvisible.add('#icons02', { style: 'tilt-left', speed: 1000, intensity: 3, delay: 0, stagger: 125, replay: false });
 
 })();
